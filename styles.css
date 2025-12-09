@@ -65,7 +65,7 @@ header ul {
     font-weight: 900;
 }
 
-.subtext {
+.subtext-one {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -85,8 +85,7 @@ button {
 
 
 .container-two {
-    padding: 48px 420px;
-    display: flex;
+    padding: 24px 340px 80px;
 }
 
 .container-three {
@@ -95,5 +94,36 @@ button {
 }
 
 .container-four {
-    padding:  48px 430px;
+    padding:  48px 420px;
+}
+
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    margin-bottom: 42px;
+}
+
+.range {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.box {
+    width: auto;
+    height: 0;
+    padding: 50%;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+    align-items: center;                    /* not sure this does anything- want image to be centered in this */
+}
+
+.subtext-two {
+    color: #3c3b3b;
+    text-align: center;
+    margin-top: 12px;
 }
