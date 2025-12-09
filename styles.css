@@ -78,5 +78,6 @@ button {
     background-color: #3882f6;
     color: white;
     border: none;
-    padding: 3px 16px;
+    border-radius: 6px;
+    padding: 6px 20px;
 }
