@@ -54,7 +54,8 @@ header ul {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    padding: 48px;
+    padding: 80px 200px;
+    gap: 32px;
 }
 
 .title {
@@ -68,3 +69,14 @@ header ul {
     color: #e5e7eb;
 }
 
+img {
+    width: 420px;
+}
+
+button {
+    margin-top: 8px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 3px 16px;
+}
