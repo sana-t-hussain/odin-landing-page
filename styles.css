@@ -32,6 +32,7 @@ footer {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 700;
 }
 
 ul {
@@ -50,7 +51,7 @@ header ul {
 }
 
 
-.container {
+.container-one {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
@@ -80,4 +81,19 @@ button {
     border: none;
     border-radius: 6px;
     padding: 6px 20px;
+}
+
+
+.container-two {
+    padding: 48px 420px;
+    display: flex;
+}
+
+.container-three {
+    background-color: #e5e7eb;
+    padding: 48px 320px;
+}
+
+.container-four {
+    padding:  48px 430px;
 }
