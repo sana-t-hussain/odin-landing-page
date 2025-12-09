@@ -7,7 +7,6 @@ header, footer {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -22,13 +21,15 @@ header {
 }
 
 footer {
+    margin-top: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px;
 }
 
-.logo{
+
+.logo {
     font-size: 24px;
     color: #f9faf8;
 }
@@ -48,10 +49,13 @@ header ul {
     gap: 16px;
 }
 
+
 .container {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
 }
-
 
 .title {
     font-size: 48px;
