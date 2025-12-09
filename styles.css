@@ -85,12 +85,12 @@ button {
 
 
 .container-two {
-    padding: 24px 340px 80px;
+    padding: 32px 340px 80px;
 }
 
 .container-three {
     background-color: #e5e7eb;
-    padding: 48px 320px;
+    padding: 120px 320px;
 }
 
 .container-four {
@@ -119,11 +119,25 @@ button {
     padding: 50%;
     border: 2px solid #3882f6;
     border-radius: 15px;
-    align-items: center;                    /* not sure this does anything- want image to be centered in this */
+    align-items: center;                    /* not sure this does anything- want image to be centered in this kkkkkkk*/
 }
 
 .subtext-two {
     color: #3c3b3b;
     text-align: center;
     margin-top: 12px;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    margin-left: 70%;
+    font-weight: 700;
+    font-size: 20px;
 }
