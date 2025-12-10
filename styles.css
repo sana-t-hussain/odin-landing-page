@@ -94,7 +94,7 @@ button {
 }
 
 .container-four {
-    padding:  48px 420px;
+    padding:  84px 360px;
 }
 
 
@@ -140,4 +140,28 @@ button {
     margin-left: 70%;
     font-weight: 700;
     font-size: 20px;
+}
+
+
+.signup {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 36px 72px;
+    gap: 32px;
+}
+
+.action {
+    font-weight: 600;
+}
+
+.click {
+    font-weight: 200;
+}
+
+
+.btn-two {
+    border: 1.5px solid white;
 }
